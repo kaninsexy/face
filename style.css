@@ -1,0 +1,69 @@
+body {
+  font-size: 10px;
+  font-family: sans-serif;
+  margin: 0 0;
+  width: 100%;
+}
+.header-container {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(62, 62, 126);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.header {
+  margin: 0 0;
+  height: 100%;
+  width: 80%;
+  background-color: rgb(62, 62, 126);
+  /* margin-bottom: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.header div {
+  padding: 10px 10px;
+}
+
+/*  */
+input {
+  width: 350px;
+}
+.search {
+  display: flex;
+}
+
+i {
+  color: rgb(30, 30, 73);
+  font-size: 20px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center i {
+  padding-right: 10px;
+}
+.center-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 0;
+}
+.center-start > div {
+  padding: 10px;
+  border-right: 1px solid rgb(40, 40, 100);
+}
+/* .right{
+    width :150px
+} */
